@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="register" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="752.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginpage.HelloController">
+   <children>
+      <ImageView fitHeight="493.0" fitWidth="752.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@images.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="-1.0" prefHeight="93.0" prefWidth="752.0" style="-fx-background-color: lightblue;">
+         <children>
+            <Label layoutX="552.0" layoutY="7.0" text="Super Admin">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutY="38.0" prefHeight="57.0" prefWidth="752.0" text="WELL COME " />
+         </children>
+      </AnchorPane>
+      <Button layoutY="93.0" mnemonicParsing="false" onAction="#CreateAccount" prefHeight="50.0" prefWidth="760.0" style="-fx-background-color: blue;" text="Create Account" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="-12.0" layoutY="143.0" mnemonicParsing="false" onAction="#transacton" prefHeight="50.0" prefWidth="770.0" style="-fx-background-color: brown;" text="Transaction" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="-8.0" layoutY="342.0" mnemonicParsing="false" onAction="#update" prefHeight="50.0" prefWidth="760.0" style="-fx-background-color: lightgreen;" text="Update" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="-22.0" layoutY="392.0" mnemonicParsing="false" onAction="#delete" prefHeight="50.0" prefWidth="779.0" style="-fx-background-color: gray;" text="Delete" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="-12.0" layoutY="243.0" mnemonicParsing="false" onAction="#logininfo" prefHeight="50.0" prefWidth="770.0" style="-fx-background-color: green;" text="login information" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="-12.0" layoutY="193.0" mnemonicParsing="false" onAction="#customer" prefHeight="50.0" prefWidth="770.0" style="-fx-background-color: lightblue;" text="Create Customer Account" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="-8.0" layoutY="292.0" mnemonicParsing="false" onAction="#information" prefHeight="50.0" prefWidth="760.0" style="-fx-background-color: silver;" text="System information" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="-4.0" layoutY="442.0" mnemonicParsing="false" onAction="#logOut" prefHeight="44.0" prefWidth="760.0" style="-fx-background-color: gold;" text="Log Out" />
+   </children>
+</AnchorPane>

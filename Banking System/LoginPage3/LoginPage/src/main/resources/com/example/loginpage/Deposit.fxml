@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="625.0" style="-fx-background-color: hsl(0,20%,50%);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginpage.HelloController">
+   <children>
+      <Button layoutX="335.0" layoutY="456.0" mnemonicParsing="false" onAction="#BackToCustmor" style="-fx-background-color: tomato;" text="Back" textFill="#0a0000">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Label layoutX="56.0" layoutY="187.0" prefHeight="36.0" prefWidth="98.0" style="-fx-background-color: hsl(0,100%,75%);" text="name" textFill="#0d0000">
+         <font>
+            <Font name="Arial Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtsearch" layoutX="76.0" layoutY="94.0" prefHeight="36.0" prefWidth="373.0" promptText="enter account number" style="-fx-background-color: white; -fx-border-radius: 10;" />
+      <Button layoutX="105.0" layoutY="456.0" mnemonicParsing="false" onAction="#depositbtn" prefHeight="44.0" prefWidth="127.0" style="-fx-background-color: lightgreen;" text="Deposit">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="-8.0" prefHeight="76.0" prefWidth="632.0" style="-fx-background-color: gray;">
+         <children>
+            <Label layoutX="447.0" layoutY="17.0" prefHeight="35.0" prefWidth="151.0" text="Employee" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold Italic" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="txtname" layoutX="232.0" layoutY="180.0" prefHeight="35.0" prefWidth="188.0" promptText="name" style="-fx-background-color: white; -fx-border-radius: 10;" />
+      <Button layoutX="453.0" layoutY="92.0" mnemonicParsing="false" onAction="#balanceSearch" prefHeight="40.0" prefWidth="76.0" text="Search">
+         <font>
+            <Font name="Constantia" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtbalance" layoutX="232.0" layoutY="240.0" prefHeight="35.0" prefWidth="188.0" promptText="balance" style="-fx-background-color: white; -fx-border-radius: 10;" />
+      <TextField fx:id="txtaccnumber" layoutX="232.0" layoutY="305.0" prefHeight="36.0" prefWidth="188.0" promptText="account number" style="-fx-background-color: white; -fx-border-radius: 10;" />
+      <TextField fx:id="txtamount" layoutX="232.0" layoutY="381.0" prefHeight="36.0" prefWidth="188.0" promptText="amount" style="-fx-background-color: white; -fx-border-radius: 10;" />
+      <Label layoutX="56.0" layoutY="251.0" prefHeight="36.0" prefWidth="98.0" style="-fx-background-color: hsl(0,100%,75%);" text="Balance" textFill="#0d0000">
+         <font>
+            <Font name="Arial Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="305.0" prefHeight="36.0" prefWidth="145.0" style="-fx-background-color: hsl(0,100%,75%);" text="Acc number" textFill="#0d0000">
+         <font>
+            <Font name="Arial Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="374.0" prefHeight="36.0" prefWidth="98.0" style="-fx-background-color: hsl(0,100%,75%);" text="amount" textFill="#0d0000">
+         <font>
+            <Font name="Arial Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="-8.0" layoutY="541.0" prefHeight="40.0" prefWidth="632.0" style="-fx-background-color: gray;">
+         <children>
+            <Label layoutX="475.0" layoutY="5.0" prefHeight="35.0" prefWidth="127.0" text="Employee" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold Italic" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
